@@ -13,6 +13,8 @@
 		221AF1FD24868674004F8F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221AF1FB24868674004F8F22 /* Main.storyboard */; };
 		221AF1FF24868676004F8F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221AF1FE24868676004F8F22 /* Assets.xcassets */; };
 		221AF20224868676004F8F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221AF20024868676004F8F22 /* LaunchScreen.storyboard */; };
+		221AF20A248690A6004F8F22 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AF209248690A6004F8F22 /* WebViewController.swift */; };
+		221AF20C2486A294004F8F22 /* UrlData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AF20B2486A294004F8F22 /* UrlData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		221AF1FE24868676004F8F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221AF20124868676004F8F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		221AF20324868676004F8F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221AF209248690A6004F8F22 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		221AF20B2486A294004F8F22 /* UrlData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				221AF1F524868674004F8F22 /* AppDelegate.swift */,
 				221AF1F724868674004F8F22 /* SceneDelegate.swift */,
+				221AF20B2486A294004F8F22 /* UrlData.swift */,
+				221AF209248690A6004F8F22 /* WebViewController.swift */,
 				221AF1F924868674004F8F22 /* ViewController.swift */,
 				221AF1FB24868674004F8F22 /* Main.storyboard */,
 				221AF1FE24868676004F8F22 /* Assets.xcassets */,
@@ -141,6 +147,8 @@
 				221AF1FA24868674004F8F22 /* ViewController.swift in Sources */,
 				221AF1F624868674004F8F22 /* AppDelegate.swift in Sources */,
 				221AF1F824868674004F8F22 /* SceneDelegate.swift in Sources */,
+				221AF20C2486A294004F8F22 /* UrlData.swift in Sources */,
+				221AF20A248690A6004F8F22 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
